@@ -2,7 +2,7 @@
 This repository contains the official implementation of the paper "Identifying Risk Factors of Intracerebral Hemorrhage stability using Explainable Attention Model"
 
 A simple 3D_sSe implementation
-```
+```python
 class SSEBlock(nn.Module):
     def __init__(self, channel, reduction=16):
         super().__init__()
