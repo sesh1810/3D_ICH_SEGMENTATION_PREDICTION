@@ -15,5 +15,12 @@ class SSEBlock(nn.Module):
         spa_se = torch.mul(x, spa_se)
         return spa_se
 ```
-
+Train command for 3D-sSE on the dataset 
+```
+CUDA_VISIBLE_DEVICES=0,1 python training.py --batch_size 2 --data_root /media/mmlab/data/sesh/Data_ICH/Sesh_Segmentation/ 
+```
+Validation command for 3D-sSE on the dataset
+```
+CUDA_VISIBLE_DEVICES=0,1 python tester.py --batch_size 2 --data_root /media/mmlab/data/sesh/Data_ICH/Sesh_Segmentation/
+```
 The model architecture is adopted from this [repository](https://github.com/wolny/pytorch-3dunet)
