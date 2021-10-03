@@ -92,11 +92,9 @@ _img = np.expand_dims(_img, axis=0)
 
 _imgg = np.expand_dims(_imgg, axis=0)
 _imgg = np.expand_dims(_imgg, axis=0)
-#print("HEHE",np.unique(_imgg))
 # _img2 = np.expand_dims(_img2, axis=0)
 # _img2 = np.expand_dims(_img2, axis=0)
-print(_img.shape)
-print(_imgg.shape)
+
 _img[_img>0] = 1 #input
 _img[_imgg>0] = 2 #imgg is output
 
