@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0,1 python tester.py --batch_size 2 --data_root /media/mmla
 ```
 The model architecture is adopted from this [repository](https://github.com/wolny/pytorch-3dunet)
 
-#Citation
+# Citation
 If you use this code for your research, please cite our paper:
 ```
 
