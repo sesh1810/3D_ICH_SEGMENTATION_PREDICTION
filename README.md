@@ -10,7 +10,6 @@ class SSEBlock(nn.Module):
                                     stride=1, padding=0, bias=False)
 
     def forward(self, x):
-
         spa_se = torch.sigmoid(self.spatial_se(x))
         spa_se = torch.mul(x, spa_se)
         return spa_se
