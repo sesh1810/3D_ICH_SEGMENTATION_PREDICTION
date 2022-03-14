@@ -1,5 +1,5 @@
 # 3D_ICH_SEGMENTATION_PREDICTION
-This repository contains the official implementation of the paper "Identifying Risk Factors of Intracerebral Hemorrhage stability using Explainable Attention Model"
+This repository contains the official implementation of the paper "[Identifying Risk Factors of Intracerebral Hemorrhage stability using Explainable Attention Model](https://link.springer.com/article/10.1007/s11517-021-02459-y)"
 
 A simple 3D_sSe implementation
 ```python
