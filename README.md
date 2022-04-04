@@ -26,7 +26,7 @@ The model architecture is adopted from this [repository](https://github.com/woln
 
 # Citation
 If you use this code for your research, please cite our paper:
-```
+```bibtex
 @article{rangaraj2021identifying,
   title={Identifying risk factors of intracerebral hemorrhage stability using explainable attention model},
   author={Rangaraj, Seshasayi and Islam, Mobarakol and Vs, Vibashan and Wijethilake, Navodini and Uppal, Utkarsh and See, Angela An Qi and Chan, Jasmine and James, Michael Lucas and King, Nicolas Kon Kam and Ren, Hongliang},
